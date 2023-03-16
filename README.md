@@ -5,6 +5,9 @@
 
 An UI interface to select PDF files based on options and merging them to a single PDF file by python3
 
+## Conversation with GPT-4
+[Here](./ChatGPTConversation.md)
+
 ## Python Version Check
 ```shell
 > python
