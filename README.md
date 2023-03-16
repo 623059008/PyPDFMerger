@@ -35,6 +35,12 @@ python3 -m pip install -r requirement.txt
 python main.py
 ```
 
+#### Merge PDF Files
+
+![Merge1](./imgs/merge1.png)
+
+![Merge2](./imgs/merge2.png)
+
 ## Launch the tag Tool
 > Give descriptive tags to different pdf files
 > This tool is for users to assign tags to PDF files so that you can merge the files with the same tag.
@@ -43,6 +49,10 @@ python main.py
 ```shell
 python tag.py
 ```
+
+#### Add Tag to PDF files(Optional)
+![Tag1](./imgs/Tag1.png)
+![Tag2](./imgs/Tag2.png)
 
 
 ## Problem Solving
