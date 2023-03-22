@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import PhotoImage, filedialog, messagebox
 import os
 import json
 
@@ -10,6 +10,8 @@ class PDFTagger:
 
         self.window = tk.Tk()
         self.window.title("PDF Selector")
+        photo = PhotoImage(file = "./icon.png")
+        self.window.iconphoto(False, photo)
 
         self.create_widgets()
         self.window.mainloop()

@@ -1,7 +1,7 @@
 import os
 import json
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog, messagebox, PhotoImage
 from PyPDF2 import PdfFileReader, PdfFileMerger
 
 class PDFMergerApp:
@@ -10,7 +10,10 @@ class PDFMergerApp:
         self.files = []
         self.root = tk.Tk()
         self.root.title("PDF Merger")
+        photo = PhotoImage(file = "./icon.png")
+        self.root.iconphoto(False, photo)
         self.create_gui()
+        
 
     def load_tags(self):
         try:
